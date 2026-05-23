@@ -1,11 +1,4 @@
-# find lcm using while loop
-a = int(input("enter your first no. here:"))
-b = int(input("enter your second number here:"))
-
-max_num = max(a, b)
-
-while True:
-    if max_num % a == 0 and max_num % b == 0:
-        print(max_num)
-        break
-    max_num += 1
+# Day-08,
+Today i solved 2 problems based on while loop 
+1.Print fibonacci sequence using while loop.
+2.print lcm of two numbers using while loop.
